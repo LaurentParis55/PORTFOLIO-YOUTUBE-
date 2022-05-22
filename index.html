@@ -1,21 +1,62 @@
 <!-- https://youtu.be/hNRxn5sKOdE  POUR HÉBERGER SUR GIT    -->
-
+<!-- https://youtu.be/syXt9-AdfPs  POUR COMMIT -->
+<!-- https://youtu.be/GVEJJQUDVz4  POUR COMMIT -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Adamina&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Site bienchoisirmeslunettes.com</title>
 </head>
+
 <body>
-    <h1> MON MAGNIFIQUE PORTFOLIO   </h1>
-    <form action="">
-        <fieldset>
-        <label for="name"> YOUR NAME :</label>
-        <input id="name" type="text">
-        <label for="surname"> YOUR SURNAME :</label>
-        <input id="surname" type="text">
-    </fieldset>
-    </form>
+    <header>
+        <h1 id="mainTitle"> BIENCHOISIRMESLUNETTES.COM</h1>
+        <p id="contact_infos">
+            <span class="contact_sp"> MAIL: contact@bienchoisirmeslunettes.com</span>
+            <span class="contact_sp"> TÉL: 07-49-65-08-53</span>
+        </p>
+    </header>
+    <nav>
+        <a class="dirLink" id="link_accueil" href="#ACCUEIL"> ACCUEIL</a>
+        <a class="dirLink" id="link_news" href="#NEWS"> NEWS</a>
+        <a class="dirLink" id="link_VetM" href="#VetM"> VERRES &MONTURES</a>
+        <a class="dirLink" id="link_bp" href="#BONS_PLANS"> BONS PLANS</a>
+        <a class="dirLink" id="link_contact" href="#CONTACT"> CONTACT</a>
+    </nav>
+    <main>
+        <section class="content" id="ACCUEIL"> ACCUEIL</section>
+        <section class="content" id="NEWS"> NEWS</section>
+        <section class="content" id="VetM"> VERRES & MONTURES</section>
+        <section class="content" id="BONS_PLANS"> BONS PLANS</section>
+        <section class="content" id="CONTACT">
+            <h2 class="content_title"> CONTACT :</h2>
+            <form action="" onsubmit="validateForm()" method="post">
+                <fieldset>
+                <label for="name"> YOUR NAME :</label>
+                <input id="name" name="name" type="text" autofocus required />
+                <br/>
+                <label for="message"> YOUR MESSAGE :</label>
+                <input id="message" name="message"></textarea>
+                <br/>
+                <input type="submit" id="b_submit" value="ENVOYER">
+            </fieldset>
+            </form>
+            
+        
+        
+        
+        </section>
+    </main>
+    <script src="scripts.js"></script>
 </body>
+
 </html>

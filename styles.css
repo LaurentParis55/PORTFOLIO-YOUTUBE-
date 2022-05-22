@@ -1,0 +1,164 @@
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+    
+  }
+
+  header{
+    margin: 0 auto;
+    position: fixed;
+    top:0;
+    left: 0;
+    height:10vmin;
+    width:100%;
+    
+    
+    }
+    
+    p#contact_infos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    font-weight: 700;
+    
+    }
+
+h1{
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Adamina', serif;
+    font-size: xx-large;
+    
+  }
+
+  nav{
+    margin: 0 auto;
+    position: fixed;
+    top:10vmin;
+    left: 0;
+    height:5vmin;
+    width:100%;
+    line-height: 5vmin;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  .dirLink{
+    width:20%;
+    height:100%;
+    font-family: 'Adamina', serif;
+    font-size: large;
+    text-align: center;
+    
+    text-decoration: none;
+    font-weight: 700;
+    color:black
+
+  }
+  .dirLink:hover{
+    font-family: 'Adamina', serif;
+    text-decoration: underline;
+    font-weight: bolder;
+
+  }
+
+  #link_accueil{
+background: red;
+
+  }
+  #link_news{
+background: green
+
+
+  }
+  #link_VetM{
+background: blue
+
+  }
+  #link_bp{
+background: orange
+
+  }
+  #link_contact{
+background:mediumslateblue
+
+  }
+
+  main{
+
+position: fixed;
+top: 15vmin;
+width: 100%;
+height: 100vmin;
+overflow-y: auto;
+
+  }
+
+  .content{
+width:100%;
+height:100%;
+
+
+  }
+
+  #ACCUEIL{
+border:2px solid red
+
+  }
+
+  #NEWS{
+    border:2px solid green
+
+  }
+
+  #VetM{
+      border:2px solid blue;
+
+
+  }
+  
+  #BONS_PLANS{
+      border:2px solid orange
+  }
+  #CONTACT{
+      border:2px solid mediumslateblue
+  }
+
+  .content_title{
+font-size: 25px;
+text-align: center;
+font-variant: small-caps;
+
+  }
+
+  form{
+      width:85%;
+margin: auto;
+
+  }
+
+#message{
+width:85%;
+height:250px;
+margin: 1% auto;
+
+  }
+
+  #b_submit{
+width:100%;
+margin:auto;
+
+  }
+
+
